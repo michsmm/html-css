@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'Sons';
+            src: url('fontes/Beardsons.otf') format('opentype'), url('fontes/Beardsons.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /* Tipos de format()
+            -opentype(otf)
+            -truetype(ttf)
+            -embedded-opentype
+            -truetype-aat (Apple Advanced Typography)
+            -svg
+        */
+
+        body{
+            font-family: 'Sons', sans-serif;
+            font-weight: normal;
+            text-align: justify;
+
+        }
+
+        h1{
+            font-family: 'Sons', Times, serif;
+            font-size: 2.5em;
+            font-weight: normal;
+            text-align: center;
+            /* site dafont.com */
+        }
+
+    </style>
+</head>
+<body><h1>HELLO WORLD!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat laboriosam unde, explicabo nulla, repudiandae vero dignissimos beatae corporis rem quidem ex, debitis magnam. Quae exercitationem fuga odio tenetur optio!</p>
+    
+</body>
+</html>
