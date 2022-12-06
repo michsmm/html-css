@@ -1,3 +1,8 @@
+# Build settings
+markdown: kramdown
+theme: modernist
+
+
 # html-css
  Curso de HTML5 e CSS3 do Cursoemvideo
 
