@@ -1,5 +1,4 @@
-# Build settings
-markdown: kramdown
+# build settings
 theme: cayman
 
 # html-css
