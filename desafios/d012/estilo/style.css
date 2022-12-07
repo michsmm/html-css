@@ -105,4 +105,9 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    font-size: 0.5em;
+}
+
+footer > p {
+    font-size: 0.7em;
 }
