@@ -17,13 +17,20 @@
             display: block;
             margin: auto;
         }
+        
+        iframe > p.erro {
+            background-color: darkred;
+            color: white;
+        }
     </style>
 </head>
 <body>
     <h1>Isso é um Teste!</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A consectetur, sed repudiandae nisi quisquam perferendis possimus sapiente maiores aliquam delectus neque dolore nam quod quae, fuga laboriosam iusto provident esse.</p>
 
-    <iframe src="pag002.html" frameborder="1" width="500px" height="400px"></iframe>
+    <iframe src="pag002.html" frameborder="1" width="500px" height="400px">
+        <p class="erro">Infelizmente o seu navegador não é compatível com o Iframe</p>
+    </iframe>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur nobis ea nesciunt non repellendus beatae repudiandae, sapiente enim quis est reprehenderit ab deserunt veniam quae voluptatem sit optio nisi aspernatur!</p>
     
