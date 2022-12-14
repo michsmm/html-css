@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 1em;
+            
+        }
+
+        body {
+            background-color: #042940;
+        }
+        h1{
+            color: white;
+            font-size: 2em;
+            text-align: center;
+        }
+        
+        form {
+            background-image: linear-gradient(to bottom, #DBF227,#D6D58E);
+            padding: 20px;
+            width: 500px;
+            height: 140px;
+            margin: auto;
+            border-radius: 16px;
+        }
+
+        p {
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <!--method padrão é o GET - aparecendo os dados digitados na URL
+    e o method POST - NÃO MOSTRA NA URL-->
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p><label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
