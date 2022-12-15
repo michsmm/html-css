@@ -1,1 +1,4 @@
-dados vem pra cá
+<?php
+$txt = "PHP"
+echo "I love &txt!";
+?>
