@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
-/* Estilo para orientação de tela DEITADO (LANDSCAPE) */
+/* Estilo para orientação de dispositivo tela DEITADO (LANDSCAPE) */
+
+body {
+   background-image: url(../imagens/cev-landscape.jpg);
+   background-position: left bottom;
+}
